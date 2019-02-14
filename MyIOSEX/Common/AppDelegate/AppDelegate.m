@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CGRect screenBounds             = [[UIScreen mainScreen] bounds];
+    self.window                     = [[UIWindow alloc] initWithFrame:screenBounds];
+    //当前uiwindow变成keywindow,并显示出来
+    [self.window makeKeyAndVisible];
+    LoginViewController *vCtrl = [[LoginViewController alloc]init];
+    //设置根视图
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vCtrl];
+    self.window.rootViewController = navi;
+    navi.navigationBarHidden = YES;
     return YES;
 }
 

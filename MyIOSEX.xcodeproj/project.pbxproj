@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C54299EA2213FF41003A7B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54299E92213FF41003A7B07 /* AppDelegate.m */; };
-		C54299ED2213FF41003A7B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54299EC2213FF41003A7B07 /* ViewController.m */; };
-		C54299F02213FF41003A7B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54299EE2213FF41003A7B07 /* Main.storyboard */; };
 		C54299F22213FF47003A7B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54299F12213FF47003A7B07 /* Assets.xcassets */; };
 		C54299F52213FF47003A7B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54299F32213FF47003A7B07 /* LaunchScreen.storyboard */; };
 		C54299F82213FF47003A7B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54299F72213FF47003A7B07 /* main.m */; };
-		C5429A022213FF48003A7B07 /* MyIOSEXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5429A012213FF48003A7B07 /* MyIOSEXTests.m */; };
-		C5429A0D2213FF48003A7B07 /* MyIOSEXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5429A0C2213FF48003A7B07 /* MyIOSEXUITests.m */; };
+		C586DB3A221575E000025AB9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C586DB38221575E000025AB9 /* LoginViewController.m */; };
+		C586DB3B221575E000025AB9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C586DB39221575E000025AB9 /* LoginViewController.xib */; };
+		C586DB3D221579C700025AB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C586DB3C221579C700025AB9 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +37,17 @@
 		C54299E52213FF41003A7B07 /* MyIOSEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIOSEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54299E82213FF41003A7B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C54299E92213FF41003A7B07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C54299EB2213FF41003A7B07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C54299EC2213FF41003A7B07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C54299EF2213FF41003A7B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C54299F12213FF47003A7B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C54299F42213FF47003A7B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C54299F62213FF47003A7B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C54299F72213FF47003A7B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C54299FD2213FF48003A7B07 /* MyIOSEXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIOSEXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5429A012213FF48003A7B07 /* MyIOSEXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyIOSEXTests.m; sourceTree = "<group>"; };
-		C5429A032213FF48003A7B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5429A082213FF48003A7B07 /* MyIOSEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIOSEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5429A0C2213FF48003A7B07 /* MyIOSEXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyIOSEXUITests.m; sourceTree = "<group>"; };
-		C5429A0E2213FF48003A7B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C586DB312215755800025AB9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C586DB37221575E000025AB9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C586DB38221575E000025AB9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C586DB39221575E000025AB9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C586DB3C221579C700025AB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +78,8 @@
 		C54299DC2213FF41003A7B07 = {
 			isa = PBXGroup;
 			children = (
+				C586DB3C221579C700025AB9 /* Default-568h@2x.png */,
 				C54299E72213FF41003A7B07 /* MyIOSEX */,
-				C5429A002213FF48003A7B07 /* MyIOSEXTests */,
-				C5429A0B2213FF48003A7B07 /* MyIOSEXUITests */,
 				C54299E62213FF41003A7B07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,35 +97,50 @@
 		C54299E72213FF41003A7B07 /* MyIOSEX */ = {
 			isa = PBXGroup;
 			children = (
-				C54299E82213FF41003A7B07 /* AppDelegate.h */,
-				C54299E92213FF41003A7B07 /* AppDelegate.m */,
-				C54299EB2213FF41003A7B07 /* ViewController.h */,
-				C54299EC2213FF41003A7B07 /* ViewController.m */,
-				C54299EE2213FF41003A7B07 /* Main.storyboard */,
-				C54299F12213FF47003A7B07 /* Assets.xcassets */,
-				C54299F32213FF47003A7B07 /* LaunchScreen.storyboard */,
+				C586DB2C22156F6400025AB9 /* Common */,
+				C586DB2B22156F3800025AB9 /* Login */,
 				C54299F62213FF47003A7B07 /* Info.plist */,
-				C54299F72213FF47003A7B07 /* main.m */,
+				C586DB2D22156FA800025AB9 /* Support Files */,
 			);
 			path = MyIOSEX;
 			sourceTree = "<group>";
 		};
-		C5429A002213FF48003A7B07 /* MyIOSEXTests */ = {
+		C586DB2B22156F3800025AB9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				C5429A012213FF48003A7B07 /* MyIOSEXTests.m */,
-				C5429A032213FF48003A7B07 /* Info.plist */,
+				C586DB37221575E000025AB9 /* LoginViewController.h */,
+				C586DB38221575E000025AB9 /* LoginViewController.m */,
+				C586DB39221575E000025AB9 /* LoginViewController.xib */,
 			);
-			path = MyIOSEXTests;
+			path = Login;
 			sourceTree = "<group>";
 		};
-		C5429A0B2213FF48003A7B07 /* MyIOSEXUITests */ = {
+		C586DB2C22156F6400025AB9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				C5429A0C2213FF48003A7B07 /* MyIOSEXUITests.m */,
-				C5429A0E2213FF48003A7B07 /* Info.plist */,
+				C586DB2E22156FF900025AB9 /* AppDelegate */,
 			);
-			path = MyIOSEXUITests;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C586DB2D22156FA800025AB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54299F72213FF47003A7B07 /* main.m */,
+				C54299F12213FF47003A7B07 /* Assets.xcassets */,
+				C54299F32213FF47003A7B07 /* LaunchScreen.storyboard */,
+				C586DB312215755800025AB9 /* PrefixHeader.pch */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		C586DB2E22156FF900025AB9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C54299E82213FF41003A7B07 /* AppDelegate.h */,
+				C54299E92213FF41003A7B07 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54299F52213FF47003A7B07 /* LaunchScreen.storyboard in Resources */,
+				C586DB3D221579C700025AB9 /* Default-568h@2x.png in Resources */,
 				C54299F22213FF47003A7B07 /* Assets.xcassets in Resources */,
-				C54299F02213FF41003A7B07 /* Main.storyboard in Resources */,
+				C586DB3B221575E000025AB9 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54299ED2213FF41003A7B07 /* ViewController.m in Sources */,
 				C54299F82213FF47003A7B07 /* main.m in Sources */,
 				C54299EA2213FF41003A7B07 /* AppDelegate.m in Sources */,
+				C586DB3A221575E000025AB9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5429A022213FF48003A7B07 /* MyIOSEXTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5429A0D2213FF48003A7B07 /* MyIOSEXUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C54299EE2213FF41003A7B07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C54299EF2213FF41003A7B07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C54299F32213FF47003A7B07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
